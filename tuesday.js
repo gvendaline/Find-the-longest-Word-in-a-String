@@ -2,7 +2,7 @@
 /*const calcDevidedBy3And5 = (maxNumber) => {*/
 
 /*FizzBuzz Create an algorithm that inserts the numbers from 1 to 135 into an array, while replacing the values that are divisible by 3 with the word "Fizz", the numbers that are divisible by 5 with the word "Buzz", and the numbers that are divisible with 3 and 5 with the word "FizzBuzz". Your output should look like [1,2,'Fizz',4,'Buzz',5,'Fizz',7,8,...]*/
-let numA = [];
+/*let numA = [];
 
 for (let i = 1; i <= 135; i++) 
 {
@@ -27,23 +27,27 @@ for (let i = 1; i <= 135; i++)
             }
         }
 }
-console.log(numA);
+console.log(numA);*/
 
-/*let sum = 0;
+let sum = 0;
  
-for (let i = 1; i <= 7; ++i) {
-    if (i % 3 === 0 && i % 5 === 0) {
-        sum += i;
-    }
-    else if(i % 3 ===0 || i % 5 === 0){
-        sum !=i;
-    }
+for (let i = 200; i <= 2700; i++) 
+{
+    if (i % 5 === 0 && i % 3 === 0) 
+    {
+        sum=sum;
+    } 
+    else {
+            if (i % 3 === 0 || i % 5 === 0) 
+            {
+                sum+=i;
+            } 
+        }
 }
  
-return sum;
-}
+// return sum;
 
-console.log(calcDevidedBy3And5(0));*/
+console.log(sum);
 
 
 /*Massive array */
